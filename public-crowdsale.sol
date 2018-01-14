@@ -107,7 +107,7 @@ contract Crowdsale is Ownable {
 
   uint256 public constant RATE = 1300; // Number of tokens per Ether - rate on 2018-01-14 at 9.57.59 AM Pacific src: Coinbase.com
   uint256 public constant CAP = 20000; // Cap in Ether
-  uint256 public constant START = 1527379200; // 05/27/2018 @ 12:00am (UTC)
+  uint256 public constant START = 1515961750; // 01/14/2018 @ 8:29pm (UTC)
   uint256 public constant DAYS = 180; // 180 Days
 
   uint256 public constant initialTokens = 50000000 * 10**18; // Initial number of tokens available
